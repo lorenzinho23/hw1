@@ -4,6 +4,7 @@
  Ho creato un account di prova per testare le funzionalità del sito. Le credenziali di tale account sono
  
  username: prova2021
+
  password: Prova@2021
  
  
