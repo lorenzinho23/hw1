@@ -59,7 +59,7 @@
         <section>
             <div id="main">
                 <div id="foto">
-                    <img src="../nuova.png">
+                    <img src="../foto/nuova.png">
                 </div>
                 <div id="testo">
                     <h1>Benvenuto/a su idealBank!</h1>
