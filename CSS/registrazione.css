@@ -1,0 +1,143 @@
+#logo {
+    font-family: 'Acme', sans-serif;
+    font-size: 46px;
+    background-color: #0056935e;
+    letter-spacing: 2px;
+    padding: 4px 6px;
+    border-radius: 20px;
+    height: 70%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+body {
+    background: url("../foto/sfondo\ nuovo.jpg") no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#intro {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.info-content .box h1 {
+    font-size: 22px;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+.info-content .box img {
+    width: 130px;
+    height: 130px;
+}
+
+.info-content .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-content .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-content .form h2 {
+    color: #005693;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #a51a1a;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.login-content .form .inputBox {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-content .form .inputBox span{
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #c70f0f;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.login-content .form .inputBox input {
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 2px solid #607d8b;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #31393d;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.login-content .form .inputBox input[type="submit"] {
+    margin-top: 20px;
+    background: #c70f0f;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.login-content .form .inputBox input[type="submit"]:hover {
+    background: #a80c0c;
+}
+
+form span {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.errorj span .nomeErrore {
+    opacity: 1;
+    font-size: 12px;
+    color: #fa1c2c;
+}
+
+.errorj input {
+    border-color: #fa1c2c;
+}
