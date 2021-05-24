@@ -85,7 +85,7 @@ function effettuaOperazione(event) {
 function inviaOperazione() {
     const importo = document.querySelector("input").value;
     console.log(importo);
-    const pattern = /^[0-9]$/;
+    const pattern = /^[0-9]+$/;
     
     if(!pattern.test(importo)) {
         alert("Importo non valido");
